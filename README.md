@@ -9,7 +9,7 @@ The main file is 'EastFjord.m3fm', which requires some inputs from other files, 
   3. Wind Forcing - 'Tylstrup_Wind.dfs0' which is the wind data for the model.
   4. Initial condition - '2Darea.dfsu', which is the initial condition in the model, based on a less refined model for the whole Limfjord.
   5. Discharge - This branch contains the measured discharges from the five used streams. All as dfs0-files.
-  6. Microplastic - This branch contains the discharged amount of microplastic particles into the system. The files are based upon the polymer type, combined with            the used stream, with a daily discharge in a single month ('_september') to not clog the Limfjord in a yearly simulation with particles and an hourly discharge          for the monthly simulations ('_hourly').
+  6. Microplastic - This branch contains the discharged amount of microplastic particles into the system. The files are based upon the polymer type, combined with            the used stream, with a daily discharge in a single month ('_september') to not clog the Limfjord in a yearly simulation with particles, and an hourly discharge          for the monthly simulations ('_hourly').
 
 The model calculates the placement of the microplastics which are further analyzed in order to visualize the results as seen in the report.
 
